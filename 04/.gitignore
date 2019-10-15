@@ -1,0 +1,4 @@
+obrazek.ps
+*.tmp 
+poznamky.txt
+/venv/*
