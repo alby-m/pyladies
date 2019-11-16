@@ -56,3 +56,4 @@ def battle():
 
 battle()
 
+#moznosti rozsirenia 2D piskvorky, pridat moznost aby si hrac volil ci je x alebo o, strategie 

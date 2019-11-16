@@ -1,4 +1,4 @@
-while 1==1:
+while 1 == 1:
     number = input("Enter your birth number: ")
     number_digits = (number.replace('/',''))
     number_1 = number_digits[:6]

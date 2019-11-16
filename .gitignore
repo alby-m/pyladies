@@ -1,1 +1,4 @@
 *.tmp 
+08/_pycache_/
+venv/
+.vscode/

@@ -1,0 +1,6 @@
+[
+  "08/test_piskvorky.py::test_take",
+  "08/test_piskvorky.py::test_pc_take",
+  "08/test_piskvorky.py::test_evaluate",
+  "08/test/test_calcul.py::test_calcul"
+]
