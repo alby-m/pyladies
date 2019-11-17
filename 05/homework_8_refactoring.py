@@ -1,26 +1,26 @@
 def length(number):
     if len(number) == 11:
-        return True
+        return 'Entered number has 11 characters.'
     else:
-        return False
+        return 'Entered number has not 11 characters.'
 
 def format(number):
     if number_digits.isnumeric():
-        return True
+        return 'Entered number includes 10 numbers.'
     else:
-        return False
+        return 'Entered number does not include 10 numbers.'
 
 def slash(number):
     if number[6] == '/':
-        return True
+        return 'Entered number includes slash on 7th position.'
     else:
-        return False
+        return 'Entered number does not include slash on 7th position.'
             
 def division(number):
     if int(number_digits) % 11 == 0:
-        return True
+        return 'Entered number is divisible by 11.'
     else:
-        return False
+        return 'Entered number is not divisible by 11.'
 
 
 number = input("Enter your birth number: ")
