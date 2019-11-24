@@ -1,5 +1,4 @@
 [
-  "08/test_hangman.py::test_select",
   "08/Piskvorky/test_piskvorky.py::test_take",
   "08/Piskvorky/test_piskvorky.py::test_pc_take",
   "08/Piskvorky/test_piskvorky.py::test_evaluate",
@@ -7,5 +6,8 @@
   "08/Piskvorky/test_piskvorky.py::test_range",
   "08/Piskvorky/test_piskvorky.py::test_available",
   "08/Piskvorky/test_piskvorky.py::test_input_check",
+  "08/hangman/test_hangman.py::test_select",
+  "08/hangman/test_hangman.py::test_blank",
+  "08/hangman/test_hangman.py::test_new_field",
   "08/test/test_calcul.py::test_calcul"
 ]

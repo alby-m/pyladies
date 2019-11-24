@@ -1,3 +1,5 @@
+#List of strings representing drawing of hangman in different stages of the game
+
 h0 = " "
 
 h1 = """
