@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Hello from Flask</title>
+    </head>
+    <body>
+        {% if name %}
+            <hl>Hello {{ name }}!</hl>
+            <a href="{{url_for('hello') }}">Go back home</a>
+        {% else %}
+            <hl>Hello, World!</hl>
+        {% endif %}
+    </body>
+</html>

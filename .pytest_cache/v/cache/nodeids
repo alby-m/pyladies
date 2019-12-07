@@ -9,5 +9,12 @@
   "08/hangman/test_hangman.py::test_select",
   "08/hangman/test_hangman.py::test_blank",
   "08/hangman/test_hangman.py::test_new_field",
-  "08/test/test_calcul.py::test_calcul"
+  "08/test/test_calcul.py::test_calcul",
+  "10/Piskvorky_classes/test_piskvorky_classes.py::test_take",
+  "10/Piskvorky_classes/test_piskvorky_classes.py::test_player_take",
+  "10/Piskvorky_classes/test_piskvorky_classes.py::test_evaluate",
+  "10/Piskvorky_classes/test_piskvorky_classes.py::test_digit",
+  "10/Piskvorky_classes/test_piskvorky_classes.py::test_range",
+  "10/Piskvorky_classes/test_piskvorky_classes.py::test_available",
+  "10/Piskvorky_classes/test_piskvorky_classes.py::test_input_check"
 ]

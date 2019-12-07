@@ -1,0 +1,8 @@
+{% block title %}Page Not Found{% endblock %} 
+{% block body %} 
+  
+  <h1>Oops! This character does not exist in the Star Wars universe.</h1> 
+  <p><a href="{{ url_for('index') }}">Click here</a>to go to the Home Page</p> 
+  
+<!-- {{ url_for('index') }} is a var which returns url of index.html-->
+{% endblock %} 

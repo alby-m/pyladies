@@ -1,0 +1,68 @@
+{
+  "robot": {
+    "name": "BB8", 
+    "enlistment": "Republic", 
+    "strong_skills": [
+      "shooting coins", 
+      "navigation", 
+      "cuteness"
+    ],
+    "next": "jedi",
+    "previous": "stormtrooper"
+  },
+  "jedi": {
+    "name": "Luke Skywalker", 
+    "enlistment": "Republic", 
+    "strong_skills": [
+      "force", 
+      "compassion", 
+      "wisdom"
+    ],
+    "next": "pilot",
+    "previous": "robot"
+  },
+  "pilot":  {
+    "name": "Han Solo", 
+    "enlistment": "Resistance", 
+    "strong_skills": [
+      "combat", 
+      "shooting", 
+      "aircraft control"
+    ],
+    "next": "princess",
+    "previous": "jedi"
+  },
+  "princess": {
+    "name": "Leia", 
+    "enlistment": "Republic", 
+    "strong_skills": [
+      "force", 
+      "leadership", 
+      "deception"
+    ],
+    "next": "sith",
+    "previous": "pilot"
+  },
+  "sith": {
+    "name": "Kylo Ren", 
+    "enlistment": "First Order", 
+    "strong_skills": [
+      "force", 
+      "combat", 
+      "deception"
+    ],
+    "next": "stormtrooper",
+    "previous": "princess"
+  },
+  "stormtrooper": {
+    "name": "Finn", 
+    "enlistment": "Resistance", 
+    "strong_skills": [
+      "combat", 
+      "courage", 
+      "loyalty"
+    ],
+    "next": "robot",
+    "previous": "sith"
+  }
+}
