@@ -7,7 +7,7 @@ ax.set_xticks(numpy.arange(-100, 125, 25))
 ax.set_yticks(numpy.arange(-100, 125, 25))
 ax.tick_params(axis='both', which='major', labelsize=5)
 plt.grid(True)
-fuel = plt.Circle((30, 25), 2.9925)
+fuel = plt.Circle((-26, 51), 2.9925)
 x1 = numpy.linspace(25.23,49.77,100)
 y1 = -1*x1+75
 plt.plot(x1, y1, '-r')
