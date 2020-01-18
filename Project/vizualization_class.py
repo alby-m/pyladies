@@ -19,12 +19,10 @@ class Vizualization():
         self.half_circles(self.fuel_tank.circle_8)
         self.half_circles(self.fuel_tank.circle_0)
         self.octagon_lines(self.fuel_tank.octagon_i)
-        # fuel = Circle((27, 0), 3, color='green')
-        # ax = gca()
-        # ax.add_artist(fuel)
         self.octagon_lines(self.fuel_tank.octagon_o)
         self.fuel_cells('IN', 'green')
         savefig('in.svg')
+        savefig('in.png')
         clf()
         self.background()
         self.half_circles(self.fuel_tank.circle_1)
@@ -40,7 +38,7 @@ class Vizualization():
         self.octagon_lines(self.fuel_tank.octagon_o)        
         self.fuel_cells('OUT', 'red')
         savefig('out.svg')
-        # show()
+        savefig('out.png')
 
     def octagon_lines(self, octagon):
         x1 = linspace(octagon.intercept-octagon.size,octagon.size,100)
