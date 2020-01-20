@@ -1,0 +1,12 @@
+                 x   y        r        Z1    Z2
+surf pulka1 cyl  50	 75 	5.70575	 40.406 460 %Puldira v SR 1
+surf pulka2 cyl  75	 50 	5.70575	 40.406 460 %Puldira v SR 2
+surf pulka3 cyl  75	-50 	5.70575	 40.406 460 %Puldira v SR 3
+surf pulka4 cyl  50	-75 	5.70575	 40.406 460 %Puldira v SR 4
+surf pulka5 cyl -50	-75 	5.70575	 40.406 460 %Puldira v SR 5
+surf pulka6 cyl -75	-50 	5.70575	 40.406 460 %Puldira v SR 6
+surf pulka7 cyl -75	 50 	5.70575	 40.406 460 %Puldira v SR 7
+surf pulka8 cyl -50	 75 	5.70575	 40.406 460 %Puldira v SR 8
+
+
+
