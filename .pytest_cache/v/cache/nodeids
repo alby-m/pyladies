@@ -16,5 +16,12 @@
   "10/Piskvorky_classes/test_piskvorky_classes.py::test_digit",
   "10/Piskvorky_classes/test_piskvorky_classes.py::test_range",
   "10/Piskvorky_classes/test_piskvorky_classes.py::test_available",
-  "10/Piskvorky_classes/test_piskvorky_classes.py::test_input_check"
+  "10/Piskvorky_classes/test_piskvorky_classes.py::test_input_check",
+  "Project/fuel_elimination_script/test_circle_tank_class.py::test_in_out_border",
+  "Project/fuel_elimination_script/test_extract_class.py::test_get_data",
+  "Project/fuel_elimination_script/test_extract_class.py::test_get_coordinates",
+  "Project/fuel_elimination_script/test_fuel_elimination_class.py::test_evaluate",
+  "Project/fuel_elimination_script/test_fuel_elimination_class.py::test_separate",
+  "Project/fuel_elimination_script/test_fuel_tank_class.py::test_in_out",
+  "Project/fuel_elimination_script/test_octagon_class.py::test_in_out_border"
 ]

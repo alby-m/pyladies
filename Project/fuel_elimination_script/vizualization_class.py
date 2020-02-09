@@ -23,7 +23,7 @@ class Vizualization():
         self.octagon_lines(self.fuel_tank.octagon_o)
         #drawing cells that were evaluated as IN 
         self.fuel_cells('IN', 'green')
-        savefig('in.svg')
+        # savefig('in.svg')
         savefig('in.png')
         clf()
         #drawing the empty plot with fuel tank
@@ -41,7 +41,7 @@ class Vizualization():
         self.octagon_lines(self.fuel_tank.octagon_o)        
         #drawing cells that were evaluated as OUT
         self.fuel_cells('OUT', 'red')
-        savefig('out.svg')
+        # savefig('out.svg')
         savefig('out.png')
 
     def octagon_lines(self, octagon):

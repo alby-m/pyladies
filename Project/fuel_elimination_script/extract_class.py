@@ -1,15 +1,16 @@
 class Extract:
     def __init__(self, source):
         self.source = source
-
+        self.data = []
     #opening the source file, extracting the data and saving them into variable
+    
     def get_data(self):
-        with open(self.source, 'r') as file_:
-            data = []
-            for line in file_:
-                data.append(line)
-            file_.close()
-        return(data)
+        if len(self.data) == 0:
+            with open(self.source, 'r') as file_:
+                for line in file_:
+                    self.data.append(line)
+                file_.close()
+        return(self.data)
 
     def get_coordinates(self):
         #processing the source data into simple numbers representing coordinates
